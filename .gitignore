@@ -2,3 +2,4 @@
 dist
 src/cdm_sdk.egg-info/
 src/my_awesome_package.egg-info/
+src/python/packages/__pycache__/packages.cpython-312.pyc

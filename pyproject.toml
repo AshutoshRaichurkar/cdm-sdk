@@ -9,9 +9,9 @@ description = "A tiny example Python package."
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-  { name = "Ashutosh Raichurkar", email = "you@example.com" }
+  { name = "Ashutosh Raichurkar", email = "raichurkarashutosh@gmail.com" }
 ]
-dependencies = []
+dependencies = ["pyspark>=3.5.0",]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
