@@ -1,12 +1,12 @@
-from pyspark.sql import SparkSession
-spark = SparkSession.builder.getOrCreate()
+# from pyspark.sql import SparkSession
+# spark = SparkSession.builder.getOrCreate()
 
-class Greeter:
-    def __init__(self, name: str = "Ashutosh"):
-        self.name = name
+# class Greeter:
+#     def __init__(self, name: str = "Ashutosh"):
+#         self.name = name
 
-    def greet(self):
-        print(f"Hello from cdm-sdk, {self.name}!")
+#     def greet(self):
+#         print(f"Hello from cdm-sdk, {self.name}!")
 
 
 def add(a: int, b: int) -> int:
