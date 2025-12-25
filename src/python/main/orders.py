@@ -2,12 +2,9 @@ import initialization
 from readers   import *
 from pyspark.sql import SparkSession
 
+spark = SparkSession.builder.master("local[*]").appName("app").getOrCreate()
+path = "/Users/ashutoshraichurkar/Documents/repos/cdm-sdk/test/csv/orders.csv"
 
-# print(add(5,6))
-
-print(println())
-
-spark = SparkSession.builder.master("local[*]").appName("demo").getOrCreate()
-df = spark.range(10)
+df = csvReader(spark, path)
 df.show()
 spark.stop()
